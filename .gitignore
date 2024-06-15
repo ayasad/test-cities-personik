@@ -396,3 +396,32 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Vite specific
+.vite/
+vite.config.ts
+
+# White application builder specific
+# Add files/directories to ignore from White here
